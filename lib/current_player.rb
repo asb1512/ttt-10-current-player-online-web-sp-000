@@ -13,8 +13,8 @@ end
 def current_player(board)
   even_or_odd = turn_count(board)
   if even_or_odd % 2 == 0
-    puts "X"
+    "X"
   else
-    puts "O"
+    "O"
   end
 end
