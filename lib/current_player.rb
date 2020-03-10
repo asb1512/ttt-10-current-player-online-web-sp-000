@@ -11,8 +11,8 @@ end
 
 
 def current_player(board)
-  even_or_odd = turn_count(board)
-  if even_or_odd % 2 == 0
+  # even_or_odd = turn_count(board)
+  if turn_count(board) % 2 == 0
     "X"
   else
     "O"
